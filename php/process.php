@@ -1,9 +1,9 @@
-
 <?php
 
 if(isset($_POST["register"]))
 {
 
+// Reading values of form data using POST method
 	$name = $_POST["name"];
 	$gender = $_POST["gender"];
 	$email = $_POST["email"];
@@ -16,6 +16,8 @@ if(isset($_POST["register"]))
 	$linkedin = $_POST["linkedin"];
 	$github = $_POST["github"];
 
+
+// Showing the data inputs by the user 
 	echo "Your inputs:". "<br />";
 	echo "-------------------------------------". "<br />";
 	echo "Name: " . $name . "<br />";
